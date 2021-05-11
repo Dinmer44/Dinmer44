@@ -1,0 +1,9 @@
+<h3>Orders</h3>
+<div>
+<select [(ngModel)]="selectedDes">
+    <option *ngFor="let flight of flights">{{flight.destination}}</option><br>
+</select>
+<input type="text" [(ngModel)]="name" placeholder="Full Name"/><br>
+<input type="number" [(ngModel)]="quantity" placeholder="quantity"/><br>
+<button (click)="addNewOrder()">order</button>
+</div>

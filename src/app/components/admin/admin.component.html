@@ -1,0 +1,7 @@
+<app-all-flights></app-all-flights>
+<div *ngIf="status">
+    <h3>Add Flight</h3>
+    <input type = "text" [(ngModel)]="flightDestination" placeholder="Flight Destination"/><br>
+    <input type = "number" [(ngModel)]="flightPrice" placeholder="Flight Price"><br>
+    <button (click)="addNewFlight()">Add</button>
+</div>
