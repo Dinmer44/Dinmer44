@@ -2,7 +2,7 @@
     <li *ngFor="let flight of flights">
         {{flight.destination}}
         {{flight.price|currency}}
-       
+        {{today | date:'fullDate'}}
     </li>
     
 </ul>
