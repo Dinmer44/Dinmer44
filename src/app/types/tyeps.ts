@@ -9,3 +9,8 @@ export type order={
     quantity: number
 
  }
+ export type worker ={
+     code: string,
+     jobId: string,
+     salary: number
+ }

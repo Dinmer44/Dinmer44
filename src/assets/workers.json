@@ -1,0 +1,31 @@
+[{
+    "name": "David",
+    "code": "2dksk2",
+    "jobId":"1",
+    "salary": 6000
+},
+{
+    "name": "Moshe",
+    "code": "48fjj",
+    "jobId":"2",
+    "salary": 10000
+},
+{
+    "name": "Tamar",
+    "code": "48mvm9",
+    "jobId":"2",
+    "salary": 9000
+},
+{
+    "name": "Yeuda",
+    "code": "1111d",
+    "jobId":"3",
+    "salary": 16000
+},
+{
+    "name": "Dan",
+    "code": "456gfh6",
+    "jobId":"1",
+    "salary": 6000
+}
+]

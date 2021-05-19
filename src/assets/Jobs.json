@@ -1,0 +1,12 @@
+[{
+    "id":1,
+    "description": "teacher"
+},
+{
+    "id":2,
+    "description": "technician"
+},
+{
+    "id":3,
+    "description": "gardener"
+}]

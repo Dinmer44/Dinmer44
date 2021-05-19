@@ -1,2 +1,6 @@
 <app-admin></app-admin>
 <app-orders></app-orders>
+<button (click)="setShow(1)">show workers</button>
+<button (click)="setShow(0)">show jobs and avarage</button>
+<app-workers *ngIf="show==1"></app-workers>
+<app-jobs *ngIf="show==0"></app-jobs>

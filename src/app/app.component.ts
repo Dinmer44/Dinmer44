@@ -8,6 +8,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'my-app';
+  show: number=0
+  setShow(value: number){
+    this.show = value;
+  }
  
   
 
